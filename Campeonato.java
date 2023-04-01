@@ -72,7 +72,7 @@ public class Campeonato {
         } 
     return sb.toString();
     }
-    //printa o campeoa, mas adptei para champions league printando tambem o segundo e terceiro lugar
+    //printa o campeao, quem vai para libertadores, quem vai para sul americana e os rebaixados 
     public void getCampeao(){ 
         System.out.println("\n\tPARABENS CAMPEAO: "+ clubes.get(0).getNomeTime());
         int n = clubes.size();
