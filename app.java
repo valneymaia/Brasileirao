@@ -51,10 +51,8 @@ public class App {
         System.out.print("Tabela do brasileirao  \n"+ campeonato.getClassificacao());
         System.out.print("\n============================================================");
        // imprimindo o campeao
-        campeonato.getCampeao();
-       
-    
-
+        System.out.print("\n"+ campeonato.getCampeao());
+        System.out.print("\n============================================================");
     }
 
 }
